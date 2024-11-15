@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pound</title>
+</head>
+<body>
+  <main>
+    <section class="bolim">
+      <form class="konteyner">
+        <div class="birinchi">
+          <div class="boshlash">
+            <h1>Mortgage Calculator</h1>
+            <a href="">Clear All</a>
+          </div>
+          <div class="inputlar">
+            <div class="narx">
+              <label for="amount">Mortgage Amount</label>
+              <input type="number" id="amount" required>
+              <span>$</span>
+            </div>
+            <div class="yosh">
+              <div class="yosh1">
+                <label for="year">Mortgage Term</label>
+                <input type="number" id="year" required>
+                <span>Years</span>
+              </div>
+              <div class="yosh2">
+                <label for="year">Interest Rate</label>
+                <input type="number" id="year" required>
+                <span>%</span>
+              </div>
+            </div>
+            <p class="so'rov">Mortgage Type</p>
+            <div id="full_name" class="tanlov">
+              <div class="tekshir">
+                <input type="radio" id="gender" required name="a">
+                <label for="gender">Repayment</label>
+              </div>
+              <div class="tekshir">
+                <input type="radio" id="support" required name="a">
+                <label for="support">Interest Only</label>
+              </div>
+            </div>
+          </div>
+          <button class="tugma"><img src="./imgs/icon-calculator.svg" alt="">Calculate Repayments</button>
+        </div>
+      </form>
+    </section>
+    <section class="ikkinchi">
+      <div class="matn">
+        <img src="./imgs/illustration-empty.svg" alt="">
+        <h2></h2>
+        <p>Complete the form and click "calculator repayments" to see what your monthly repayments would be.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

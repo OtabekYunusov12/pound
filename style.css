@@ -1,0 +1,179 @@
+
+body{
+  width: 100%;
+  max-width: 1440px;
+  background-color: hsl(203, 41%, 72%);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+main{
+  width: 80%;
+  display: flex;
+} 
+
+
+.konteyner{
+  width: 100%;
+  background-color: white;
+  border-radius: 18px;
+  padding: 9px;
+}
+
+
+.boshlash{
+  display: flex;
+  gap: 120px;
+  padding: 40px 40px;
+}
+
+
+.birinchi a{
+  color: hsl(200, 26%, 54%);
+}
+
+
+.inputlar{
+  margin-left: 40px;
+}
+
+
+.inputlar label{
+  display: block;
+  font-size: 16px;
+  color: hsl(200, 24%, 40%);
+}
+
+
+.narx input[type="number"] {
+  padding: 14px 52px;
+  border: 1px solid hsl(200, 24%, 40%);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.narx{
+  position: relative;
+}
+
+.narx span{
+  background-color: hsl(202, 86%, 94%);
+  padding: 14px 22px;
+  border-radius: 5px;
+  position: absolute;
+  left: 1px;
+  top: 29.5px;
+  font-size: larger;
+}
+
+
+.yosh{
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.yosh input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid hsl(200, 24%, 40%);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.yosh1 span, .yosh2 span{
+  background-color: hsl(202, 86%, 94%);
+  padding: 10px 22px;
+  border-radius: 5px;
+  position: absolute;
+  top: 29px;
+}
+
+.yosh1 span{
+  left: 160px;
+}
+
+.yosh2 span{
+  left: 465px;
+  font-size: larger;
+}
+
+
+.surov {
+  margin-top: 20px;
+  font-size: 17px;
+  margin-bottom: 1rem;
+  color: hsl(200, 24%, 40%);
+}
+.tanlov div {
+  width: 80%; /*bu 2ta kontenerchani uzun qiladi 80% berilganda qisqa kantener qiladi*/
+  border: 1px solid black; /*2ta kontenerni uzun qiladi*/
+  padding: 12px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 10px;
+  gap: 15px;
+}
+
+
+.tekshir label{
+  color: hsl(202, 55%, 16%);
+  font-size: larger;
+  font-weight: 700;
+}
+
+/* Tugma */
+.tugma{
+  display: flex;
+  padding: 12px 25px;
+  gap: 1px;
+  border-radius: 15px;
+  background-color: #D9DB30;
+  align-items: center;
+  margin: 42px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.ikkinchi{
+  background-color: hsl(202, 55%, 16%);
+  width: 50%;
+  place-items: center;
+  margin-left: -45px;
+}
+
+.matn{
+  padding: 30px;
+  text-align: center;
+}
+
+.matn h2{
+  color: white;
+  margin-top: 20px;
+}
+
+.matn p{
+  color: hsl(200, 24%, 40%);
+  margin-top: 10px;
+}
+
+/*telfonlar uchun mobileyni */
+@media screen and (min-width:360px) and (max-width:500px) {
+  main{
+    
+    width: 100%;
+  }
+}
+@media screen and (min-width: 460px) and (max-width:600px){
+  main{
+  width: 100%;
+  }
+}
